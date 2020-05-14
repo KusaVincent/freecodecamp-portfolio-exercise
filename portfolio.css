@@ -1,0 +1,116 @@
+* body {
+  font-family: monospace;
+  width: 100%;
+  height: 100%;
+  background-color: lightgrey;
+}
+
+#navbar {
+  height: 70px;
+  width: 100%;
+  background-color: saddlebrown;
+  position: fixed;
+  top: 0;
+}
+
+#navbar a {
+  float: right;
+  padding-top: 20px;
+  margin-right: 50px;
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: 24px;
+}
+
+#welcome-section {
+  height: 100vh;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10em;
+  color: cornsilk;
+  background-color: rgb(5, 5, 39);
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin: 20px 10px 20px 10px;
+}
+
+.project-tile {
+  border-radius: 10px;
+  background-color: whitesmoke;
+  border: 1px royalblue solid;
+}
+
+.project-tile p {
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+  margin: auto;
+}
+
+#profile-link {
+  margin-bottom: 50px;
+}
+
+.see {
+  border: 2px royalblue solid;
+  margin: 20px 45% 30px 45%;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.see a {
+  text-decoration: none;
+  color: blue;
+}
+
+#profile-link {
+  display: grid;
+  grid-template-areas:
+    "r r r"
+    "c e g";
+
+  padding-left: 12%;
+}
+
+.contactss {
+  font-size: 25px;
+  grid-area: c;
+  text-decoration: none;
+}
+.contacts {
+  font-size: 25px;
+  grid-area: e;
+  text-decoration: none;
+}
+.contact {
+  font-size: 25px;
+  grid-area: g;
+  text-decoration: none;
+}
+
+.hed {
+  text-align: center;
+  grid-area: r;
+}
+
+.hed p {
+  font-size: 20px;
+}
+
+.hed h2 {
+  font-size: 30px;
+}
